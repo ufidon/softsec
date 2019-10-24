@@ -5,6 +5,15 @@ course materials and references for its450
 * [Ghidra](https://ghidra-sre.org/)
 * [Radare](https://rada.re/r/)
 
+## Command-line HTTP
+* [HTTPie](https://httpie.org/)
+* [HTTP Prompt](http://http-prompt.com/)
+
+## Proxy
+1. HTTP proxy
+* [mitmproxy](https://mitmproxy.org/)
+
+2. Sock proxy
 
 ## Online labs
 * [SEED labs](https://seedsecuritylabs.org/labs.html)
