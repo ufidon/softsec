@@ -1,32 +1,25 @@
 # its450 lectures
 course materials and references for its450
 
-## Module00: Setup environment
-
-
-## Module01: Software security
-### Priviledged programs
-
-
-### Evironment variables & attacks
-
-
-### Shell attacks
-
-### Buffer overflow attack
-
-### Return-to-libc attack & Return-oriented programming
-
-### Format-string attack
-
-### Race condition vulnerability
-
-### Dirty Copy-on-Write
-
-### Reverse shell
-
+Tentative topics [Computer & Internet Security: A Hands-on Approach](https://www.handsonsecurity.net/resources.html) Chapter 01-12:
+* Module01: Software security
+  * Priviledged programs 
+  * Evironment variables & attacks 
+  * Shell attacks
+  * Buffer overflow attack 
+  * Return-to-libc attack & Return-oriented programming
+  * Format-string attack 
+  * Race condition vulnerability 
+  * Dirty Copy-on-Write
+  * Reverse shell
+** Module02: Web security
+  * Cross Site Request forgery
+  * Cross-site scripting attack
+  * SQL injection attack
 
 ### References
+* [Computer & Internet Security: A Hands-on Approach](https://www.handsonsecurity.net)
+* [SEED labs](https://seedsecuritylabs.org/)
 * [Executable and Linkable Format](https://en.wikipedia.org/wiki/Executable\_and\_Linkable\_Format)
 * [The Teensy Files](http://www.muppetlabs.com/~breadbox/software/tiny/)
 * [The 101 of ELF files on Linux: Understanding and Analysis](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/)
@@ -37,13 +30,4 @@ course materials and references for its450
 * [Intel x86 Function-call Conventions - Assembly View](http://unixwiz.net/techtips/win32-callconv-asm.html)
 * [C, C++ AND BUFFER OVERFLOW](https://www.tenouk.com/cncplusplusbufferoverflow.html)
 
-
-## Module02: Web security
-### Cross Site Request forgery
-
-
-### Cross-site scripting attack
-
-
-### SQL injection attack
 
