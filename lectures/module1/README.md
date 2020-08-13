@@ -2,23 +2,23 @@
 course materials and references for its450
 
 ## Module01: Software security
-### Priviledged programs 
+### 1.1 Previledged programs 
 
-### Evironment variables & attacks 
+### 1.2 Environment variables & attacks 
 
-### Shell attacks
+### 1.3 Shell attacks
 
-### Buffer overflow attack 
+### 1.4 Buffer overflow attack 
 
-### Return-to-libc attack & Return-oriented programming
+### 1.5 Return-to-libc attack & Return-oriented programming
 
-### Format-string attack 
+### 1.6 Format-string attack 
 
-### Race condition vulnerability 
+### 1.7 Race condition vulnerability 
 
-### Dirty Copy-on-Write
+### 1.8 Dirty Copy-on-Write
 
-### Reverse shell
+### 1.9 Reverse shell
 
 ### References
 * [Computer & Internet Security: A Hands-on Approach](https://www.handsonsecurity.net)

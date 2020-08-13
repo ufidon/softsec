@@ -12,7 +12,7 @@ Tentative topics [Computer & Internet Security: A Hands-on Approach](https://www
   * Race condition vulnerability 
   * Dirty Copy-on-Write
   * Reverse shell
-** Module02: Web security
+* Module02: Web security
   * Cross Site Request forgery
   * Cross-site scripting attack
   * SQL injection attack
