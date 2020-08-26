@@ -33,6 +33,9 @@ Write a report about:
 * the process you test the NAT network
 * the process you setup and test the shared folder
 
+__Demo video__
+* [How to setup SEED labs?](https://youtu.be/pc5QJPiFbNQ)
+
 __References__
 * [VirtualBox](https://www.virtualbox.org/)
 * [SEED security labs](https://seedsecuritylabs.org/)
