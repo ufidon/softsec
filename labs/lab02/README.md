@@ -6,7 +6,7 @@ This lab is revised from [SEED Environment Variable and Set-UID Lab](https://see
 
 **Tasks to be complete:**
 
-Complete the following tasks described in [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/):
+Complete the following tasks described in [SEED Environment Variable and Set-UID Lab](./refs/EnvironmentVariableandSetUID.pdf):
 
 - [x] Task 1
 - [x] Task 2
