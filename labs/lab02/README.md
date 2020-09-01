@@ -12,10 +12,10 @@ Complete the following tasks described in [SEED Environment Variable and Set-UID
 - [x] Task 2
 - [x] Task 3
 - [x] Task 4
-- [] Task 5
-- [] Task 6
-- [] Task 7
-- [] Task 8
+- [ ] Task 5
+- [ ] Task 6
+- [ ] Task 7
+- [ ] Task 8
 - [x] Task 9
 
 **References**
