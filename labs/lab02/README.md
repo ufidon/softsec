@@ -28,7 +28,10 @@ The review questions are taken from the tasks, you may put and answer the review
 1. In task 3, we are interested in what happens to the environment variables; are they automatically inherited by the new program? why?
 2. In task 9, Will the file /etc/zzz be modified? why?
 
-**3. References**
+**3. Demo video**
+* [SEED Environment Variable and Set-UID Program Lab 1](https://youtu.be/b\_aOc-3QY40)
+
+**4. References**
 * [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)
 * [Setuid](https://en.wikipedia.org/wiki/Setuid)
 * [setuid](http://manpages.ubuntu.com/manpages/focal/man1/setuid.1.html)
