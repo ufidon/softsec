@@ -4,7 +4,7 @@ course materials and references for its450
 
 This lab is revised from [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)
 
-**Tasks to be complete:**
+**1. Tasks to be complete:**
 
 Complete the following tasks described in [SEED Environment Variable and Set-UID Lab](./refs/EnvironmentVariableandSetUID.pdf):
 
@@ -18,8 +18,19 @@ Complete the following tasks described in [SEED Environment Variable and Set-UID
 - [ ] Task 8
 - [x] Task 9
 
-**References**
+**2. Report**
+
+Write a report about the process you complete the tasks in the description, key screen snapshots are needed as evidences. In your report, each task has its own subsection.
+
+*Review questions*
+
+The review questions are taken from the tasks, you may put and answer the review questions in the section of review questions *or in its respective tasks, if so, please hightlight them with green color*.
+1. In task 3, we are interested in what happens to the environment variables; are they automatically inherited by the new program? why?
+2. In task 9, Will the file /etc/zzz be modified? why?
+
+**3. References**
 * [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)
 * [Setuid](https://en.wikipedia.org/wiki/Setuid)
 * [setuid](http://manpages.ubuntu.com/manpages/focal/man1/setuid.1.html)
 * [Setuid Program Example](https://www.gnu.org/software/libc/manual/html\_node/Setuid-Program-Example.html)
+* [Linux list processes by user names (EUID and RUID)](https://www.cyberciti.biz/faq/linux-list-processes-by-user-names-euid-and-ruid/)
