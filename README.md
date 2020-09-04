@@ -2,7 +2,10 @@
 course materials and references for its450
 
 ## Youtube channel
-* [Subscribe for automatic notification](https://www.youtube.com/channel/UCjIWgywyl8qMGgxdzTlI63A)
+To receive automatic notification from the Youtube channel of this course on new uploaded videos,
+click this link to [subscribe for automatic notification](https://www.youtube.com/channel/UCjIWgywyl8qMGgxdzTlI63A) or scan this QR code with your smartphone:
+
+![subscribe for automatic notification](./qlwyQR.png)
 
 ## Prerequisite
 In this course, we will create one virtual machines with SEED Ubuntu 16.04 LTS image, all needed software are integrated  in the provided virtual machine image. To be ready for this course, you need to have

@@ -8,15 +8,15 @@ This lab is revised from [SEED Environment Variable and Set-UID Lab](https://see
 
 Complete the following tasks described in [SEED Environment Variable and Set-UID Lab](./refs/EnvironmentVariableandSetUID.pdf):
 
-- [x] Task 1
-- [x] Task 2
-- [x] Task 3
-- [x] Task 4
-- [ ] Task 5
-- [ ] Task 6
-- [ ] Task 7
-- [ ] Task 8
-- [x] Task 9
+- [x] Task 1: Manipulating Environment Variables
+- [x] Task 2: Passing Environment Variables from Parent Process to Child Process
+- [x] Task 3: Environment Variables and execve()
+- [x] Task 4: Environment Variables and system()
+- [ ] Task 5: Environment Variable and Set-UID Programs
+- [ ] Task 6: The PATH Environment Variable and Set-UID Programs
+- [ ] Task 7: The LD PRELOAD Environment Variable and Set-UID Programs
+- [ ] Task 8: Invoking External Programs Using system() versus execve()
+- [x] Task 9: Capability Leaking
 
 **2. Report**
 
