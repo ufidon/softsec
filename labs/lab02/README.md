@@ -8,25 +8,25 @@ This lab is revised from [SEED Environment Variable and Set-UID Lab](https://see
 
 Complete the following tasks described in [SEED Environment Variable and Set-UID Lab](./refs/EnvironmentVariableandSetUID.pdf):
 
-- [x] Task 1: Manipulating Environment Variables
-- [x] Task 2: Passing Environment Variables from Parent Process to Child Process
-- [x] Task 3: Environment Variables and execve()
-- [x] Task 4: Environment Variables and system()
+- [x] Task 1(16%): Manipulating Environment Variables
+- [x] Task 2(16%): Passing Environment Variables from Parent Process to Child Process
+- [x] Task 3(16%): Environment Variables and execve()
+- [x] Task 4(16%): Environment Variables and system()
 - [ ] Task 5: Environment Variable and Set-UID Programs
 - [ ] Task 6: The PATH Environment Variable and Set-UID Programs
 - [ ] Task 7: The LD PRELOAD Environment Variable and Set-UID Programs
 - [ ] Task 8: Invoking External Programs Using system() versus execve()
-- [x] Task 9: Capability Leaking
+- [x] Task 9(16%): Capability Leaking
 
 **2. Report**
 
 Write a report about the process you complete the tasks in the description, key screen snapshots are needed as evidences. In your report, each task has its own subsection.
 
-*Review questions*
+*(20%)Review questions*
 
 The review questions are taken from the tasks, you may put and answer the review questions in the section of review questions *or in its respective tasks, if so, please hightlight them with green color*.
-1. In task 3, we are interested in what happens to the environment variables; are they automatically inherited by the new program? why?
-2. In task 9, Will the file /etc/zzz be modified? why?
+1. (10%)In task 3, we are interested in what happens to the environment variables; are they automatically inherited by the new program? why?
+2. (10%)In task 9, Will the file /etc/zzz be modified? why?
 
 **3. Demo video**
 * [SEED Environment Variable and Set-UID Program Lab 1](https://youtu.be/b\_aOc-3QY40)
