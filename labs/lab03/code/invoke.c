@@ -1,6 +1,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 int main(int argc, char *argv[])
 {
@@ -21,7 +22,7 @@ int main(int argc, char *argv[])
     sprintf(command, "%s %s", v[0], v[1]);
     // Use only one of the followings.
     system(command);
-    // execve(v[0], v, NULL);
+    //execve(v[0], v, NULL);
 
     return 0;
 }
