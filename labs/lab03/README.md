@@ -32,7 +32,7 @@ with the root privilege? Describe and explain your observations.
 
 
 **3. Demo video**
-* [SEED Environment Variable and Set-UID Program Lab 2]()
+* [SEED Environment Variable and Set-UID Program Lab 2](https://youtu.be/EqpVNQ888vg)
 
 **4. References**
 * [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)
