@@ -36,3 +36,9 @@ The review questions are taken from the tasks, you may put and answer the review
   * [Alert (TA14-268A)](https://us-cert.cisa.gov/ncas/alerts/TA14-268A)
   * [CVE-2014-6271 Detail](https://nvd.nist.gov/vuln/detail/CVE-2014-6271)
 * [netcat](https://en.wikipedia.org/wiki/Netcat)
+* [How To Customize Bash Prompt in Linux](https://phoenixnap.com/kb/change-bash-prompt-linux)
+* Client URL
+  * [cURL](https://en.wikipedia.org/wiki/CURL)
+    * [curl](https://curl.haxx.se/)
+    * [source code](https://github.com/curl/curl)
+    * [https://curl.haxx.se/docs/comparison-table.html](https://curl.haxx.se/docs/comparison-table.html)
