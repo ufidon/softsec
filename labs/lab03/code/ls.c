@@ -17,7 +17,7 @@ int main(){
 	// system("/bin/sh") // Get root privilege
 	// system("/bin/dash") // No root privilege
 	// system("/bin/bash") // No root privilege
-	// system("/bin/dash -p"); // Get root privilege
+	// system("/bin/dash -p"); // Get root privilege: THIS LINE MUST BE USED FOR YOUR LABS, ASSIGNMENTS AND TESTS.
 
 	/*Recover link first: /bin/sh -> /bin/dash 
 	Using: sudo ln -sf /bin/dash /bin/sh
