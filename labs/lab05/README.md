@@ -38,3 +38,7 @@ The review questions are taken from the tasks, you may put and answer the review
   * [CVE-2014-6271 Detail](https://nvd.nist.gov/vuln/detail/CVE-2014-6271)
 * [netcat](https://en.wikipedia.org/wiki/Netcat)
 * [PHP Predefined Variables](https://www.php.net/manual/en/reserved.variables.php)
+* [SSH Tunnel - Local and Remote Port Forwarding Explained With Examples](https://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html)
+* [SSH Port Forwarding Example](https://www.ssh.com/ssh/tunneling/example)
+* [SSH/OpenSSH/PortForwarding](https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding)
+* [A Guide to SSH Port Forwarding/Tunnelling](https://www.booleanworld.com/guide-ssh-port-forwarding-tunnelling/)
