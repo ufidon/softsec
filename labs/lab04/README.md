@@ -28,7 +28,7 @@ The review questions are taken from the tasks, you may put and answer the review
 
 **3. Demo video**
 
-Forgot recording. You may check the lecture slide for instructions.
+[A quick demo: Lab04 SEED Shellshock Attack Lab Part1](https://youtu.be/ZYMmLE1NgYs)
 
 **4. References**
 * [SEED Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Shellshock/)
