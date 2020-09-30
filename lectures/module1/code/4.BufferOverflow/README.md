@@ -7,4 +7,9 @@
 
 # References:
 * [gcc - how to create a mapfile of the object file](https://stackoverflow.com/questions/38961649/gcc-how-to-create-a-mapfile-of-the-object-file)
+* [Is there any disassembler to rival IDA Pro?](https://reverseengineering.stackexchange.com/questions/1817/is-there-any-disassembler-to-rival-ida-pro)
+  * [ghidra](https://ghidra-sre.org/)
+  * [radare](https://www.radare.org/)
+  * [x64dbg](https://x64dbg.com)
+  * [medusa](https://github.com/wisk/medusa)
 
