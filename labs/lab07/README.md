@@ -8,6 +8,8 @@ This lab is revised from [SEED Buffer-Overflow Vulnerability Lab](https://seedse
 
 Complete the following tasks described in [SEED Buffer-Overflow Vulnerability Lab](../lab06/refs/BufferOverflow.pdf):
 
+*The BUF_SIZE in stack.c must be 240*
+
 - [ ] Task 1: Running Shellcode
 - [ ] Task 2: Exploiting the Vulnerability
 - [x] Task 3(30%): Defeating dash’s Countermeasure

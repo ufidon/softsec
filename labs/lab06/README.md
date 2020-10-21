@@ -8,6 +8,8 @@ This lab is revised from [SEED Buffer-Overflow Vulnerability Lab](https://seedse
 
 Complete the following tasks described in [SEED Buffer-Overflow Vulnerability Lab](./refs/BufferOverflow.pdf):
 
+*The BUF_SIZE in stack.c must be 240*
+
 - [x] Task 1(40%): Running Shellcode
 - [x] Task 2(60%, C and Python version each 30%): Exploiting the Vulnerability
 - [ ] Task 3: Defeating dash’s Countermeasure
@@ -22,7 +24,7 @@ Write a report about the process you complete the tasks in the description, key 
 
 
 **3. Demo video**
-
+* [SEED Buffer Overflow Vulnerability Lab I](https://youtu.be/Hvfwtffpnho)
 
 **4. References**
 * [SEED Buffer-Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow/)
