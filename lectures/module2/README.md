@@ -11,3 +11,8 @@ All the slides are backupped from [Computer & Internet Security: A Hands-on Appr
 ### References
 * [Computer & Internet Security: A Hands-on Approach](https://www.handsonsecurity.net)
 * [SEED labs](https://seedsecuritylabs.org/)
+* [HTTP Header Live](https://addons.mozilla.org/en-US/firefox/addon/http-header-live/)
+* [Firefox development tools](https://developer.mozilla.org/en-US/docs/Tools)
+* [Chrome Devtools](https://developers.google.com/web/tools/chrome-devtools)
+* [Elgg](https://en.wikipedia.org/wiki/Elgg_(software))
+  * [elgg](https://elgg.org/)
