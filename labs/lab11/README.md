@@ -9,8 +9,8 @@ This lab is revised from [SQL Injection Attack Lab](https://seedsecuritylabs.org
 Complete the following tasks described in [SQL Injection Attack Lab](./refs/WebSQLInjection.pdf):
 
 
-- [x] Task 1 (40%): Writing a Self-Propagating XSS Worm
-- [x] Task 2 (60%): Defeating XSS Attacks Using CSP
+- [x] Task 1 (40%): Get Familiar with SQL Statements
+- [x] Task 2 (60%): SQL Injection Attack on SELECT Statement
 
 
 **2. Report**
