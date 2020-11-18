@@ -35,7 +35,7 @@ show tables;
 select * from elgg_xssentity_relationships;
 
 # 6. delete the rows with guid friend guid, e.g. 47 friend 47
-# replace ?? below with yours
+# replace ?? below with yours, ATTN: id is NOT guid
 delete from elgg_xssentity_relationships where id=??;
 ```
 
