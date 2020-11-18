@@ -16,6 +16,29 @@ Complete the following tasks described in [Cross-Site Scripting Attack Lab (Elgg
 - [x] Task 7 (45%): Defeating XSS Attacks Using CSP
 
 
+*How to remove oneself from his/her friend list?*
+
+```sql
+# 1. open a terminal, login into MySQL
+mysql -u root -p'seedubuntu'
+
+# 2. Find the target database
+show databases;
+
+# 3. use the target database
+use elgg_xss;
+
+# 4. find the target table
+show tables;
+
+# 5. find those guid friend guid, i.e. those are friends of themselves
+select * from elgg_xssentity_relationships;
+
+# 6. delete the rows with guid friend guid, e.g. 47 friend 47
+# replace ?? below with yours
+delete from elgg_xssentity_relationships where id=??;
+```
+
 **2. Report**
 
 Write a report about the process you complete the tasks in the description, key screen snapshots are needed as evidences. In your report, each task has its own subsection.
