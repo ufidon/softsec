@@ -12,7 +12,7 @@ Complete the following tasks described in [Cross-Site Scripting Attack Lab (Elgg
 - [x] Task 6 (55%): Writing a Self-Propagating XSS Worm
 * (20%)Link method 
 * (15%)DOM method 
-* (20%)Applying countermeasure such as activating plugin HTMLawed
+* (20%)Applying countermeasure such as activating plugin HTMLawed. Show link method OR DOM method failed after activated plugin HTMLawed.
 - [x] Task 7 (45%): Defeating XSS Attacks Using CSP
 
 
