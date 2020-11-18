@@ -9,8 +9,11 @@ This lab is revised from [Cross-Site Scripting Attack Lab (Elgg)](https://seedse
 Complete the following tasks described in [Cross-Site Scripting Attack Lab (Elgg)](../lab09/refs/WebXSSElggnew.pdf):
 
 
-- [x] Task 6 (45%): Writing a Self-Propagating XSS Worm
-- [x] Task 7 (55%): Defeating XSS Attacks Using CSP
+- [x] Task 6 (55%): Writing a Self-Propagating XSS Worm
+* (20%)Link method 
+* (15%)DOM method 
+* (20%)Applying countermeasure such as activating plugin HTMLawed
+- [x] Task 7 (45%): Defeating XSS Attacks Using CSP
 
 
 **2. Report**
@@ -20,6 +23,9 @@ Write a report about the process you complete the tasks in the description, key 
 
 **3. Demo video**
 
+*Pay attention to the lab tasks, countermeasure is required. not only FYI*
+
+* [Cross-Site Scripting Attack Lab II](https://youtu.be/Xh8OXe11-4Q)
 
 **4. References**
 * [Cross-Site Scripting Attack Lab (Elgg)](https://seedsecuritylabs.org/Labs_16.04/Web/Web_XSS_Elgg/)
