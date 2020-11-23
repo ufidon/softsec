@@ -16,17 +16,28 @@
    $eid = $_GET['EID'];
    $pwd = $_GET['Password'];
 
+   echo "EID: $eid --- Pass: $pwd logged in. \n";
+
    $conn = new mysqli("localhost", "root", "seedubuntu", "dbtest");
-   $sql = "SELECT Name, Salary, SSN             
+   if ($conn) {
+     echo "dbtest connected\n";
+   }
+
+   $sql = "SELECT Name, salary, ssn             
            FROM employee
            WHERE eid= '$eid' and password='$pwd'";  
 
+    echo "SQL: $sql\n";
+
    $result = $conn->query($sql);
+
+
    if ($result) {
+      echo "result retrieved\n";
       // Print out the result
       while ($row = $result->fetch_assoc()) {
-        printf ("Name: %s -- Salary: %s -- SSN: %s\n",
-                $row["Name"], $row["Salary"], $row['SSN']);
+        printf ("Name: %s -- salary: %s -- ssn: %s\n",
+                $row["Name"], $row["salary"], $row['ssn']);
       }
       $result->free();
    }
