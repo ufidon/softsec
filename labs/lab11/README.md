@@ -10,13 +10,27 @@ Complete the following tasks described in [SQL Injection Attack Lab](./refs/WebS
 
 Before the lab, backup original database and files.
 1. Backup and restore database in a terminal
-   1. Backup: mysqldump -u [username] -p [database name] > [database name].sql
-   For example: mysqldump -u root -p Users > users.sql
-   2. Restore: mysql -u [username] -p targetdatabase < [database name].sql
-   For example: mysql -u root -p Users < users.sql
+   1. Backup: 
+```mysql   
+   mysqldump -u [username] -p [database name] > [database name].sql
+   # For example: 
+   mysqldump -u root -p Users > users.sql
+```   
+   2. Restore: 
+```mysql   
+   mysql -u [username] -p targetdatabase < [database name].sql
+   # For example: 
+   mysql -u root -p Users < users.sql
+```   
 2. Backup and restore php source file
-   1. Backup: sudo cp /var/www/SQLInjection/unsafe_home.php /var/www/SQLInjection/unsafe_home.php.bk
-   2. Restore: sudo cp /var/www/SQLInjection/unsafe_home.php.bk /var/www/SQLInjection/unsafe_home.php
+   1. Backup: 
+```bash   
+   sudo cp /var/www/SQLInjection/unsafe_home.php /var/www/SQLInjection/unsafe_home.php.bk
+```   
+   2. Restore: 
+```bash   
+   sudo cp /var/www/SQLInjection/unsafe_home.php.bk /var/www/SQLInjection/unsafe_home.php
+```
 
 - [x] Task 1 (40%): Get Familiar with SQL Statements
   - [X] (10%) Login MySQL from terminal as root
