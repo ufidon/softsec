@@ -1,4 +1,7 @@
 <?php
+/* check: login.html
+ * prerequisite: dbtest database created with dbtest.sql
+ */
    function getDB() {
      $dbhost="localhost";
      $dbuser="root";
@@ -16,28 +19,28 @@
    $eid = $_GET['EID'];
    $pwd = $_GET['Password'];
 
-   echo "EID: $eid --- Pass: $pwd logged in. \n";
-
    $conn = new mysqli("localhost", "root", "seedubuntu", "dbtest");
-   if ($conn) {
-     echo "dbtest connected\n";
-   }
-
-   $sql = "SELECT Name, salary, ssn             
+   $sql = "SELECT Name, Salary, SSN             
            FROM employee
            WHERE eid= '$eid' and password='$pwd'";  
 
-    echo "SQL: $sql\n";
+   echo "<h1> processed by getdata.php </h1>";
+   echo "<h2> the login info </h2>";
+   echo "EID: ". $eid;
+   echo "<br>";   
+   echo "Password: ". $pwd;
+   echo "<br>";    
+   echo "<h2> the sql statement </h2>";
+   echo "SQL: " . $sql;
+   echo "<br>";
 
    $result = $conn->query($sql);
-
-
    if ($result) {
-      echo "result retrieved\n";
       // Print out the result
+   		echo "<h2> retrieved records </h2>";
       while ($row = $result->fetch_assoc()) {
-        printf ("Name: %s -- salary: %s -- ssn: %s\n",
-                $row["Name"], $row["salary"], $row['ssn']);
+        printf ("Name: %s -- Salary: %s -- SSN: %s\n",$row["Name"], $row["Salary"], $row['SSN']);
+        echo "<br>";
       }
       $result->free();
    }
