@@ -34,8 +34,15 @@ Complete the following tasks described in [SQL Injection Attack Lab](../lab11/re
 
 
 - [x] Task 3 (45%): SQL Injection Attack on UPDATE Statement
-- [x] Task 4 (55%): Countermeasure — Prepared Statement
-
+  - [x] Task 3.1(15%): Modify your own salary.
+  - [x] Task 3.2(15%): Modify other people’ salary. 
+  - [x] Task 3.3(15%): Modify other people’ password.
+- [x] Task 4 (55%, each 11%): Countermeasure — Prepared Statement. After applied countermeasure, redo the following tasks, now the attacks should fail.
+  - [X] Task 2.1: SQL injection attack from webpage.
+  - [X] Task 2.2: SQL injection attack from command line.
+  - [x] Task 3.1: Modify your own salary.
+  - [x] Task 3.2: Modify other people’ salary. 
+  - [x] Task 3.3: Modify other people’ password.
 
 **2. Report**
 
@@ -43,7 +50,7 @@ Write a report about the process you complete the tasks in the description, key 
 
 
 **3. Demo video**
-
+* [SQL Injection Attack II](https://youtu.be/YmKjRjhVhtw)
 
 **4. References**
 * [SQL Injection Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Web/Web_SQL_Injection/)
