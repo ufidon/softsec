@@ -41,8 +41,8 @@ Complete the following tasks described in [SQL Injection Attack Lab](../lab11/re
   - [X] Task 2.1: SQL injection attack from webpage.
   - [X] Task 2.2: SQL injection attack from command line.
   - [x] Task 3.1: Modify your own salary.
-  - [x] Task 3.2: Modify other people’ salary. 
-  - [x] Task 3.3: Modify other people’ password.
+  - [x] Task 3.2: Modify other people’s salary. 
+  - [x] Task 3.3: Modify other people’s password.
 
 **2. Report**
 
