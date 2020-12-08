@@ -5,7 +5,7 @@
 
 int load2mem(char *image)
 {
-    char memory[128];
+    char memory[28];
 
     /* copy image into memory */
     strcpy(memory, image);
