@@ -11,16 +11,8 @@ Setup the lab environment and get familiar with the SEED VM. You need a USB 3.0+
 * *Rule of thumb to choose software: always choose the latest and STABLE version*
 * Download and install [VirtualBox](https://www.virtualbox.org/) and the extension pack
 * Download the [SEED VM](https://seedsecuritylabs.org/) form its official website
-* Read the [SEED manuals](https://seedsecuritylabs.org/lab_env.html)
-* Setup a virtual NAT network with the SEED VM
-  * NAT network settings:
-    * Disable IPv6
-    * Network ID: 10.20.30.0
-  * VM settings:
-    * 1GB memory
-    * Connect to the NAT network
-    * It is a best practice to set VM's IP address statically
-    * Enable network promiscuous mode
+* Choose an installation approach and follow the corresponding [SEED manuals](https://seedsecuritylabs.org/labsetup.html) to install a SEED environment.
+* Here we choose [Installing SEED VM](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md) on a local computer.
 * Browse and play with the integrated software
 * Practice the basic Linux commands on the [Linux command memento](https://bootlin.com/doc/legacy/command-line/)
 * *If SEED VMs can NOT adjust to full screen automatically, it can be changed manually inside the VM. System Settings -> Display -> Resolution (change it what you want.)*
@@ -35,7 +27,9 @@ Write a report about:
 * (30%)the process you setup and test the shared folder
 
 __Demo video__
-* [How to setup SEED labs?](https://youtu.be/pc5QJPiFbNQ)
+* Fall 2021
+* Fall 2020
+  * [How to setup SEED labs?](https://youtu.be/pc5QJPiFbNQ)
 
 __References__
 * [VirtualBox](https://www.virtualbox.org/)
