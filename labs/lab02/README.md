@@ -29,7 +29,7 @@ The review questions are taken from the tasks, you may put and answer the review
 2. (10%)In task 9, Will the file /etc/zzz be modified? why?
 
 **3. Demo video**
-* [SEED 2.0 Environment Variable and Set-UID Program Lab 1]()
+* [SEED 2.0 Environment Variable and Set-UID Program Lab 1](https://youtu.be/5rxjcMZujYI)
 * [SEED 1.0 Environment Variable and Set-UID Program Lab 1](https://youtu.be/b\_aOc-3QY40)
 
 **4. References**
