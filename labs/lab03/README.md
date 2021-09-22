@@ -2,7 +2,7 @@
 
 course materials and references for its450
 
-This lab is revised from [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)
+This lab is revised from [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Environment_Variable_and_SetUID/)
 
 **1. Tasks to be complete:**
 
@@ -14,7 +14,7 @@ Complete the following tasks described in [SEED Environment Variable and Set-UID
 - [ ] Task 4: Environment Variables and system()
 - [x] Task 5(20%): Environment Variable and Set-UID Programs
 - [x] Task 6(20%): The PATH Environment Variable and Set-UID Programs
-- [x] Task 7(20%): The LD PRELOAD Environment Variable and Set-UID Programs
+- [x] Task 7(20%): The LD_PRELOAD Environment Variable and Set-UID Programs
 - [x] Task 8(20%): Invoking External Programs Using system() versus execve()
 - [ ] Task 9: Capability Leaking
 
@@ -32,7 +32,10 @@ with the root privilege? Describe and explain your observations.
 
 
 **3. Demo video**
-* [SEED Environment Variable and Set-UID Program Lab 2](https://youtu.be/EqpVNQ888vg)
+* Fall 2021
+  * [SEED Environment Variable and Set-UID Program Lab 2]()
+* Fall 2020
+  * [SEED Environment Variable and Set-UID Program Lab 2](https://youtu.be/EqpVNQ888vg)
 
 **4. References**
 * [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)

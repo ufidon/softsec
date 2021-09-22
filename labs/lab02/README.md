@@ -2,7 +2,7 @@
 
 course materials and references for its450
 
-This lab is revised from [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)
+This lab is revised from [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Environment_Variable_and_SetUID/)
 
 **1. Tasks to be complete:**
 
@@ -14,7 +14,7 @@ Complete the following tasks described in [SEED Environment Variable and Set-UID
 - [x] Task 4(16%): Environment Variables and system()
 - [ ] Task 5: Environment Variable and Set-UID Programs
 - [ ] Task 6: The PATH Environment Variable and Set-UID Programs
-- [ ] Task 7: The LD PRELOAD Environment Variable and Set-UID Programs
+- [ ] Task 7: The LD_PRELOAD Environment Variable and Set-UID Programs
 - [ ] Task 8: Invoking External Programs Using system() versus execve()
 - [x] Task 9(16%): Capability Leaking
 
@@ -29,7 +29,11 @@ The review questions are taken from the tasks, you may put and answer the review
 2. (10%)In task 9, Will the file /etc/zzz be modified? why?
 
 **3. Demo video**
-* [SEED Environment Variable and Set-UID Program Lab 1](https://youtu.be/b\_aOc-3QY40)
+
+* Fall 2021
+  * [SEED Environment Variable and Set-UID Program Lab 1]()
+* Fall 2020
+  * [SEED Environment Variable and Set-UID Program Lab 1](https://youtu.be/b\_aOc-3QY40)
 
 **4. References**
 * [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)

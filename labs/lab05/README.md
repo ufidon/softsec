@@ -2,7 +2,7 @@
 
 course materials and references for its450
 
-This lab is revised from [SEED Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Shellshock/)
+This lab is revised from [SEED Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Shellshock/)
 
 **1. Tasks to be complete:**
 
