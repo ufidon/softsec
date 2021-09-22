@@ -27,10 +27,8 @@ Write a report about:
 * (30%)the process you setup and test the shared folder
 
 __Demo video__
-* Fall 2021
-  * [How to setup SEED 2.0 lab environment?](https://youtu.be/ejydR40c_Gw)
-* Fall 2020
-  * [How to setup SEED 1.0 lab environment?](https://youtu.be/pc5QJPiFbNQ)
+* [How to setup SEED 2.0 lab environment?](https://youtu.be/ejydR40c_Gw)
+* [How to setup SEED 1.0 lab environment?](https://youtu.be/pc5QJPiFbNQ)
 
 __References__
 * [VirtualBox](https://www.virtualbox.org/)

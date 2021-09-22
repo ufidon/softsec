@@ -2,11 +2,11 @@
 
 course materials and references for its450
 
-This lab is revised from [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Environment_Variable_and_SetUID/)
+This lab is revised from [SEED 2.0 Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Environment_Variable_and_SetUID/)
 
 **1. Tasks to be complete:**
 
-Complete the following tasks described in [SEED Environment Variable and Set-UID Lab](./refs/EnvironmentVariableandSetUID.pdf):
+Complete the following tasks described in [SEED 2.0 Environment Variable and Set-UID Lab](./refs/EnvironmentVariableandSetUID.pdf):
 
 - [x] Task 1(16%): Manipulating Environment Variables
 - [x] Task 2(16%): Passing Environment Variables from Parent Process to Child Process
@@ -29,14 +29,12 @@ The review questions are taken from the tasks, you may put and answer the review
 2. (10%)In task 9, Will the file /etc/zzz be modified? why?
 
 **3. Demo video**
-
-* Fall 2021
-  * [SEED Environment Variable and Set-UID Program Lab 1]()
-* Fall 2020
-  * [SEED Environment Variable and Set-UID Program Lab 1](https://youtu.be/b\_aOc-3QY40)
+* [SEED 2.0 Environment Variable and Set-UID Program Lab 1]()
+* [SEED 1.0 Environment Variable and Set-UID Program Lab 1](https://youtu.be/b\_aOc-3QY40)
 
 **4. References**
-* [SEED Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)
+* [SEED 2.0 Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Environment_Variable_and_SetUID/)
+* [SEED 1.0 Environment Variable and Set-UID Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Environment_Variable_and_SetUID/)
 * [Setuid](https://en.wikipedia.org/wiki/Setuid)
 * [setuid](http://manpages.ubuntu.com/manpages/focal/man1/setuid.1.html)
 * [Setuid Program Example](https://www.gnu.org/software/libc/manual/html\_node/Setuid-Program-Example.html)
