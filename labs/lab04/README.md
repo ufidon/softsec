@@ -22,12 +22,14 @@ Write a report about the process you complete the tasks in the description, key 
 
 *Review questions*
 
-The review questions are taken from the tasks, you may put and answer the review questions in the section of review questions *or in its respective tasks, if so, please hightlight them with green color*.
+The review questions are taken from the tasks, you may put and answer the review questions in the section of review questions *or in its respective tasks, if so, please highlight them with green color*.
 
 1. (10%)In Task 3, please explain how the data from a remote user can get into those environment variables on the server.
 
+2. **Task 3 Question 2 reference answer**: web url can NOT accept blank space existed in shell function definition starting string '() {', it must be encoded into URL code which is %20B, send the encoded request to getenv.cgi, we can see %20B is NOT converted back to blank space, so the purpose of sending a shell function definition failed, i.e. shellshock attack can not be launched through url.
+
 **3. Demo video**
-* [A quick demo: Lab04 SEED 2.0 Shellshock Attack Lab Part1]()
+* [A quick demo: Lab04 SEED 2.0 Shellshock Attack Lab Part1](https://youtu.be/4czL8W5n3go)
 * [A quick demo: Lab04 SEED 1.0 Shellshock Attack Lab Part1](https://youtu.be/ZYMmLE1NgYs)
 
 **4. References**
@@ -45,3 +47,4 @@ The review questions are taken from the tasks, you may put and answer the review
     * [source code](https://github.com/curl/curl)
     * [https://curl.haxx.se/docs/comparison-table.html](https://curl.haxx.se/docs/comparison-table.html)
 * [How to Resolve “Temporary failure in name resolution” Issue](https://www.tecmint.com/resolve-temporary-failure-in-name-resolution/)
+* [How to fix docker: Got permission denied while trying to connect to the Docker daemon socket](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket)
