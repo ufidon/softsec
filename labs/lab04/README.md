@@ -26,7 +26,7 @@ The review questions are taken from the tasks, you may put and answer the review
 
 1. (10%)In Task 3, please explain how the data from a remote user can get into those environment variables on the server.
 
-2. **Task 3 Question 2 reference answer**: web url can NOT accept blank space existed in shell function definition starting string '() {', it must be encoded into URL code which is %20B, send the encoded request to getenv.cgi, we can see %20B is NOT converted back to blank space, so the purpose of sending a shell function definition failed, i.e. shellshock attack can not be launched through url.
+2. **Task 3 Question 2 reference answer**: web url can NOT accept the blank space existed in shell function definition starting string '() {', it must be encoded into URL code which is %20B, other special characters also need url encoding. Send the encoded request to getenv.cgi, we can see %20B from the shell function definition starting string is NOT converted back to blank space, so the purpose of sending a shell function definition failed, i.e. shellshock attack can not be launched through url.
 
 **3. Demo video**
 * [A quick demo: Lab04 SEED 2.0 Shellshock Attack Lab Part1](https://youtu.be/4czL8W5n3go)
