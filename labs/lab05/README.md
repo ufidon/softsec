@@ -11,20 +11,17 @@ Complete the following tasks described in [SEED Shellshock Attack Lab](../lab04/
 - [ ] Task 1: Experimenting with Bash Function
 - [ ] Task 2: Setting up CGI programs
 - [ ] Task 3: Passing Data to Bash via Environment Variable
-- [x] Task 4(25%): Launching the Shellshock Attack
-- [x] Task 5(25%): Getting a Reverse Shell via Shellshock Attack
-- [x] Task 6(40%): Using the Patched Bash
+- [x] Task 4(50%): Getting a Reverse Shell via Shellshock Attack
+- [x] Task 5(40%): Using the Patched Bash
 
 
 **2. Report**
 
 Write a report about the process you complete the tasks in the description, key screen snapshots are needed as evidences. In your report, each task has its own subsection.
 
-*Review questions*
+*Review questions (10%)*
 
-The review questions are taken from the tasks, you may put and answer the review questions in the section of review questions *or in its respective tasks, if so, please hightlight them with green color*.
-
-1. (10%)In Task 4, will you be able to steal the content of the shadow file/etc/shadow? Why or why not?
+The review questions are taken from the tasks, you may put and answer the review questions in the section of review questions *or in its respective tasks, if so, please highlight them with green color*.
 
 
 **3. Demo video**

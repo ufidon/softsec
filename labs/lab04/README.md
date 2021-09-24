@@ -9,24 +9,21 @@ This lab is revised from [SEED 2.0 Shellshock Attack Lab](https://seedsecurityla
 Complete the following tasks described in [SEED 2.0 Shellshock Attack Lab](./refs/Shellshock.pdf):
 
 - [x] Task 1(30%): Experimenting with Bash Function
-- [x] Task 2(30%): Setting up CGI programs
-- [x] Task 3(30%): Passing Data to Bash via Environment Variable
-- [ ] Task 4: Launching the Shellshock Attack
-- [ ] Task 5: Getting a Reverse Shell via Shellshock Attack
-- [ ] Task 6: Using the Patched Bash
+- [x] Task 2(30%): Passing Data to Bash via Environment Variable
+- [x] Task 3(30%): Launching the Shellshock Attack
+- [ ] Task 4: Getting a Reverse Shell via Shellshock Attack
+- [ ] Task 5: Using the Patched Bash
 
 
 **2. Report**
 
 Write a report about the process you complete the tasks in the description, key screen snapshots are needed as evidences. In your report, each task has its own subsection.
 
-*Review questions*
+*Review questions (10%)*
 
 The review questions are taken from the tasks, you may put and answer the review questions in the section of review questions *or in its respective tasks, if so, please highlight them with green color*.
 
-1. (10%)In Task 3, please explain how the data from a remote user can get into those environment variables on the server.
-
-2. **Task 3 Question 2 reference answer**: web url can NOT accept the blank space existed in shell function definition starting string '() {', it must be encoded into URL code which is %20B, other special characters also need url encoding. Send the encoded request to getenv.cgi, we can see %20B from the shell function definition starting string is NOT converted back to blank space, so the purpose of sending a shell function definition failed, i.e. shellshock attack can not be launched through url.
+* **Task 3 Question 2 reference answer**: web url can NOT accept the blank space existed in shell function definition starting string '() {', it must be encoded into URL code which is %20B, other special characters also need url encoding. Send the encoded request to getenv.cgi, we can see %20B from the shell function definition starting string is NOT converted back to blank space, so the purpose of sending a shell function definition failed, i.e. shellshock attack can not be launched through url.
 
 **3. Demo video**
 * [A quick demo: Lab04 SEED 2.0 Shellshock Attack Lab Part1](https://youtu.be/4czL8W5n3go)
