@@ -2,11 +2,11 @@
 
 course materials and references for its450
 
-This lab is revised from [SEED Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Shellshock/)
+This lab is revised from [SEED 2.0 Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Shellshock/)
 
 **1. Tasks to be complete:**
 
-Complete the following tasks described in [SEED Shellshock Attack Lab](../lab04/refs/Shellshock.pdf):
+Complete the following tasks described in [SEED 2.0 Shellshock Attack Lab](../lab04/refs/Shellshock.pdf):
 
 - [ ] Task 1: Experimenting with Bash Function
 - [ ] Task 2: Setting up CGI programs
