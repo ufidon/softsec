@@ -25,11 +25,12 @@ The review questions are taken from the tasks, you may put and answer the review
 
 
 **3. Demo video**
-
-* [SEED Shell shock Attack Lab Part 2](https://youtu.be/3Ov-DLguK_g)
+* [SEED 2.0 Shell shock Attack Lab Part 2]()
+* [SEED 1.0 Shell shock Attack Lab Part 2](https://youtu.be/3Ov-DLguK_g)
 
 **4. References**
-* [SEED Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Shellshock/)
+* [SEED 2.0 Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Shellshock/)
+* [SEED 1.0 Shellshock Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Shellshock/)
 * [Shellshock (software bug)](https://en.wikipedia.org/wiki/Shellshock_(software_bug))
   * [CVE-2014-6271](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2014-6271)
   * [Alert (TA14-268A)](https://us-cert.cisa.gov/ncas/alerts/TA14-268A)
