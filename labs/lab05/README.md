@@ -34,7 +34,7 @@ nameserver 8.8.4.4
 
 # 2. restart the domain name resolving service
 sudo systemctl restart systemd-resolved.service
-``
+```
 
 **3. Demo video**
 * [SEED 2.0 Shell shock Attack Lab Part 2](https://youtu.be/uiJffB0nw0U)
