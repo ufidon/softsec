@@ -25,7 +25,7 @@ The review questions are taken from the tasks, you may put and answer the review
 
 
 **3. Demo video**
-* [SEED 2.0 Shell shock Attack Lab Part 2]()
+* [SEED 2.0 Shell shock Attack Lab Part 2](https://youtu.be/uiJffB0nw0U)
 * [SEED 1.0 Shell shock Attack Lab Part 2](https://youtu.be/3Ov-DLguK_g)
 
 **4. References**
