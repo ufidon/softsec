@@ -23,6 +23,18 @@ Write a report about the process you complete the tasks in the description, key 
 
 The review questions are taken from the tasks, you may put and answer the review questions in the section of review questions *or in its respective tasks, if so, please highlight them with green color*.
 
+*nc -lv 9090 name resolving problem*
+
+The error of "nc: getnameinfo: Temporary failure in name resolution" when you run "nc -lv 9090", can be solved by 
+
+```bash
+# 1. appending the following two lines to the domain name resolving configuration file /etc/resolv.conf
+nameserver 10.20.30.1 # change to your VM gateway, find it with ip route inside your VM
+nameserver 8.8.4.4
+
+# 2. restart the domain name resolving service
+sudo systemctl restart systemd-resolved.service
+``
 
 **3. Demo video**
 * [SEED 2.0 Shell shock Attack Lab Part 2](https://youtu.be/uiJffB0nw0U)
@@ -41,3 +53,4 @@ The review questions are taken from the tasks, you may put and answer the review
 * [SSH Port Forwarding Example](https://www.ssh.com/ssh/tunneling/example)
 * [SSH/OpenSSH/PortForwarding](https://help.ubuntu.com/community/SSH/OpenSSH/PortForwarding)
 * [A Guide to SSH Port Forwarding/Tunnelling](https://www.booleanworld.com/guide-ssh-port-forwarding-tunnelling/)
+* [netcat nc: getnameinfo: Temporary failure in name resolution](https://unix.stackexchange.com/questions/592086/netcat-nc-getnameinfo-temporary-failure-in-name-resolution)
