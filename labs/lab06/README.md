@@ -2,20 +2,20 @@
 
 course materials and references for its450
 
-This lab is revised from [SEED Buffer-Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow/)
+This lab is revised from [SEED 2.0 Buffer-Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Buffer_Overflow_Server/)
 
 **1. Tasks to be complete:**
 
-Complete the following tasks described in [SEED Buffer-Overflow Vulnerability Lab](./refs/BufferOverflow.pdf):
+Complete the following tasks described in [SEED 2.0 Buffer-Overflow Vulnerability Lab](./refs/BufferOverflowServer.pdf):
 
-*The BUF_SIZE in stack.c must be 240*
 
-- [x] Task 1(40%): Running Shellcode
-- [x] Task 2(60%, C and Python version each 30%): Exploiting the Vulnerability
-- [ ] Task 3: Defeating dash’s Countermeasure
-- [ ] Task 4: Defeating Address Randomization
-- [ ] Task 5: Turn on the StackGuard Protection
-- [ ] Task 6: Turn on the Non-executable Stack Protection
+- [x] Task 1: Get Familiar with the Shellcode
+- [x] Task 2: Level-1 Attack
+- [x] Task 3: Level-2 Attack
+- [x] Task 4: Level-3 Attack
+- [x] Task 5: Level-4 Attack
+- [ ] Task 6: Experimenting with the Address Randomization
+- [ ] Task 7: Experimenting with Other Countermeasures
 
 
 **2. Report**
@@ -24,10 +24,12 @@ Write a report about the process you complete the tasks in the description, key 
 
 
 **3. Demo video**
-* [SEED Buffer Overflow Vulnerability Lab I](https://youtu.be/Hvfwtffpnho)
+* [SEED 2.0 Buffer Overflow Vulnerability Lab I]()
+* [SEED 1.0 Buffer Overflow Vulnerability Lab I](https://youtu.be/Hvfwtffpnho)
 
 **4. References**
-* [SEED Buffer-Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow/)
+* [SEED 2.0 Buffer-Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Buffer_Overflow_Server/)
+* [SEED 1.0 Buffer-Overflow Vulnerability Lab](https://seedsecuritylabs.org/Labs_16.04/Software/Buffer_Overflow/)
 * [Buffer overflow](https://en.wikipedia.org/wiki/Buffer_overflow)
   * [Stack buffer overflow](https://en.wikipedia.org/wiki/Stack_buffer_overflow)
   * [Heap overflow](https://en.wikipedia.org/wiki/Heap_overflow)
