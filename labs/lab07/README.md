@@ -12,10 +12,10 @@ Complete the following tasks described in [SEED 2.0 Buffer-Overflow Vulnerabilit
 - [ ] Task 1: Get Familiar with the Shellcode
 - [ ] Task 2: Level-1 Attack
 - [ ] Task 3: Level-2 Attack
-- [ ] Task 4: Level-3 Attack
-- [ ] Task 5: Level-4 Attack
-- [x] Task 6: Experimenting with the Address Randomization
-- [x] Task 7: Experimenting with Other Countermeasures
+- [ ] Task 4: Level-3 Attack(optional)
+- [ ] Task 5: Level-4 Attack(optional)
+- [x] Task 6(50%): Experimenting with the Address Randomization
+- [x] Task 7(50%): Experimenting with Other Countermeasures
 
 
 **2. Report**

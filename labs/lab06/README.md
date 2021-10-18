@@ -9,11 +9,11 @@ This lab is revised from [SEED 2.0 Buffer-Overflow Vulnerability Lab](https://se
 Complete the following tasks described in [SEED 2.0 Buffer-Overflow Vulnerability Lab](./refs/BufferOverflowServer.pdf):
 
 
-- [x] Task 1: Get Familiar with the Shellcode
-- [x] Task 2: Level-1 Attack
-- [x] Task 3: Level-2 Attack
-- [x] Task 4: Level-3 Attack
-- [x] Task 5: Level-4 Attack
+- [x] Task 1(20%): Get Familiar with the Shellcode
+- [x] Task 2(40%): Level-1 Attack
+- [x] Task 3(40%): Level-2 Attack
+- [ ] Task 4: Level-3 Attack(optional)
+- [ ] Task 5: Level-4 Attack(optional)
 - [ ] Task 6: Experimenting with the Address Randomization
 - [ ] Task 7: Experimenting with Other Countermeasures
 
@@ -47,3 +47,5 @@ Write a report about the process you complete the tasks in the description, key 
   * [Executable space protection](https://en.wikipedia.org/wiki/Executable_space_protection)
   * [Address space layout randomization](https://en.wikipedia.org/wiki/Address_space_layout_randomization)
   * [Deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection)
+* _docker_
+  * [COPY failed: stat /var/lib/docker/tmp/docker-xxx : no such file or directory](https://stackoverflow.com/questions/63455621/copy-failed-stat-var-lib-docker-tmp-docker-xxx-no-such-file-or-directory)
