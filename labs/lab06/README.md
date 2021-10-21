@@ -49,3 +49,8 @@ Write a report about the process you complete the tasks in the description, key 
   * [Deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection)
 * _docker_
   * [COPY failed: stat /var/lib/docker/tmp/docker-xxx : no such file or directory](https://stackoverflow.com/questions/63455621/copy-failed-stat-var-lib-docker-tmp-docker-xxx-no-such-file-or-directory)
+* _gdb_
+  * [cheat sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
+  * [Examining the Stack](https://web.mit.edu/gnu/doc/html/gdb_8.html)
+  * [GDB - Call Stack](https://www.cse.unsw.edu.au/~learn/debugging/modules/gdb_call_stack/)
+  * [Stack layouts](https://www.cs.miami.edu/home/burt/learning/Csc421.171/workbook/stack-memory.html)
