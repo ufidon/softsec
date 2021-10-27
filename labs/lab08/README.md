@@ -6,7 +6,7 @@ This lab is revised from [SEED 2.0 Cross-Site Request Forgery Attack Lab](https:
 
 **1. Tasks to be complete:**
 
-Complete all tasks described in [Cross-Site Request Forgery Attack Lab](./refs/WebCSRFElgg.pdf):
+Complete all tasks described in [SEED 2.0 Cross-Site Request Forgery Attack Lab](./refs/WebCSRFElgg.pdf):
 
 - [x] Task 1 (10%): Observing HTTP Request.
 - [x] Task 2 (20%): CSRF Attack using GET Request
