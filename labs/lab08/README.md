@@ -42,3 +42,11 @@ Write a report about the process you complete the tasks in the description, key 
 * [Elgg](https://en.wikipedia.org/wiki/Elgg_(software))
   * [elgg](https://elgg.org/)
 * [Docker: How to delete all local Docker images](https://stackoverflow.com/questions/44785585/docker-how-to-delete-all-local-docker-images)
+* _csrf countmeasures_
+  * [Cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
+    * [Cross-Site Request Forgery Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+  * [SameSite](https://owasp.org/www-community/SameSite)
+    * [SameSite is NOT Same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy)
+      * [The Same-Origin Policy](https://www.aosabook.org/en/500L/the-same-origin-policy.html)
+  * [HTTP referer](https://en.wikipedia.org/wiki/HTTP_referer)
+  * [Synchronizer token pattern (STP) or CSRF tokens](https://portswigger.net/web-security/csrf/tokens)

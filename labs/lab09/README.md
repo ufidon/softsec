@@ -30,3 +30,7 @@ Write a report about the process you complete the tasks in the description, key 
 * [Chrome Devtools](https://developers.google.com/web/tools/chrome-devtools)
 * [Elgg](https://en.wikipedia.org/wiki/Elgg_(software))
   * [elgg](https://elgg.org/)
+* _countermeasures_
+  * [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy)
+    * [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+      * [CSP](https://www.w3.org/TR/CSP/)
