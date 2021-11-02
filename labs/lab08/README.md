@@ -30,7 +30,7 @@ Write a report about the process you complete the tasks in the description, key 
 
 
 **3. Demo video**
-* [SEED 2.0 CSRF Attack Lab]()
+* [SEED 2.0 CSRF Attack Lab](https://youtu.be/cXGU1zLfCWc)
 * [SEED 1.0 CSRF Attack Lab](https://youtu.be/Hf6We9DRjnM)
 
 **4. References**
