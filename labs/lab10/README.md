@@ -2,18 +2,23 @@
 
 course materials and references for its450
 
-This lab is revised from [Cross-Site Scripting Attack Lab (Elgg)](https://seedsecuritylabs.org/Labs_16.04/Web/Web_XSS_Elgg/)
+This lab is revised from [SEED 2.0 Cross-Site Scripting Attack Lab (Elgg)](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/)
 
 **1. Tasks to be complete:**
 
-Complete the following tasks described in [Cross-Site Scripting Attack Lab (Elgg)](../lab09/refs/WebXSSElggnew.pdf):
+Complete the following tasks described in [SEED 2.0 Cross-Site Scripting Attack Lab (Elgg)](../lab09/refs/WebXSSElgg.pdf):
 
 
 - [x] Task 6 (55%): Writing a Self-Propagating XSS Worm
-* (20%)Link method 
-* (15%)DOM method 
-* (20%)Applying countermeasure such as activating plugin HTMLawed. Show link method OR DOM method failed after activated plugin HTMLawed.
-- [x] Task 7 (45%): Defeating XSS Attacks Using CSP
+  * (20%)Link method 
+  * (15%)DOM method 
+  * (20%)Applying countermeasure such as activating plugin HTMLawed. Show link method OR DOM method failed after activated plugin HTMLawed.
+- [x] Task 7 (45%): Defeating XSS Attacks Using CSP. Each subtask counts for 9%.
+  * Describe and explain your observations when you visit these websites.
+  * Click the button in the web pages from all the three websites, describe and explain your observations.
+  * Change the server configuration on example32b (modify the Apache configuration), so Areas 5 and 6 display OK. Please include your modified configuration in the lab report.
+  * Change the server configuration on example32c (modify the PHP code), so Areas 1, 2, 4, 5, and 6 all display OK. Please include your modified configuration in the lab report.
+  * Please explain why CSP can help prevent Cross-Site Scripting attacks.
 
 
 *How to remove oneself from his/her friend list?*
@@ -46,12 +51,14 @@ Write a report about the process you complete the tasks in the description, key 
 
 **3. Demo video**
 
-*Pay attention to the lab tasks, countermeasure is required. not only FYI*
+*Pay attention to the lab tasks, countermeasure in Task 6 is required. not only FYI*
 
-* [Cross-Site Scripting Attack Lab II](https://youtu.be/Xh8OXe11-4Q)
+* [SEED 2.0 Cross-Site Scripting Attack Lab II]()
+* [SEED 1.0 Cross-Site Scripting Attack Lab II](https://youtu.be/Xh8OXe11-4Q)
 
 **4. References**
-* [Cross-Site Scripting Attack Lab (Elgg)](https://seedsecuritylabs.org/Labs_16.04/Web/Web_XSS_Elgg/)
+* [SEED 2.0 Cross-Site Scripting Attack Lab (Elgg)](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/)
+* [SEED 1.0 Cross-Site Scripting Attack Lab (Elgg)](https://seedsecuritylabs.org/Labs_16.04/Web/Web_XSS_Elgg/)
 * [HTTP Header Live](https://addons.mozilla.org/en-US/firefox/addon/http-header-live/)
 * [Firefox development tools](https://developer.mozilla.org/en-US/docs/Tools)
 * [Chrome Devtools](https://developers.google.com/web/tools/chrome-devtools)
