@@ -21,7 +21,7 @@ Write a report about the process you complete the tasks in the description, key 
 
 
 **3. Demo video**
-* [SEED 2.0 Cross-Site Scripting Attack I]()
+* [SEED 2.0 Cross-Site Scripting Attack I](https://youtu.be/vihBgSu-1Yk)
 * [SEED 1.0 Cross-Site Scripting Attack I](https://youtu.be/YX_qiofPriE)
 
 **4. References**
