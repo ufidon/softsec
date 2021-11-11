@@ -8,12 +8,12 @@ This lab is revised from [SEED 2.0 Cross-Site Scripting Attack Lab (Elgg)](https
 
 Complete the following tasks described in [SEED 2.0 Cross-Site Scripting Attack Lab (Elgg)](../lab09/refs/WebXSSElgg.pdf):
 
+*admin password: seedadmin*
 
-- [x] Task 6 (55%): Writing a Self-Propagating XSS Worm
-  * (20%)Link method 
-  * (15%)DOM method 
-  * (20%)Applying countermeasure such as activating plugin HTMLawed. Show link method OR DOM method failed after activated plugin HTMLawed.
-- [x] Task 7 (45%): Defeating XSS Attacks Using CSP. Each subtask counts for 9%.
+- [x] Task 6 (50%): Writing a Self-Propagating XSS Worm
+  * (25%)Link method 
+  * (25%)DOM method 
+- [x] Task 7 (50%): Defeating XSS Attacks Using CSP. Each subtask counts for 10%.
   * Describe and explain your observations when you visit these websites.
   * Click the button in the web pages from all the three websites, describe and explain your observations.
   * Change the server configuration on example32b (modify the Apache configuration), so Areas 5 and 6 display OK. Please include your modified configuration in the lab report.
@@ -25,23 +25,23 @@ Complete the following tasks described in [SEED 2.0 Cross-Site Scripting Attack 
 
 ```sql
 # 1. open a terminal, login into MySQL
-mysql -u root -p'seedubuntu'
+mysql -u root -p'dees'
 
 # 2. Find the target database
 show databases;
 
 # 3. use the target database
-use elgg_xss;
+use elgg_seed;
 
 # 4. find the target table
 show tables;
 
 # 5. find those guid friend guid, i.e. those are friends of themselves
-select * from elgg_xssentity_relationships;
+select * from elgg_entity_relationships;
 
 # 6. delete the rows with guid friend guid, e.g. 47 friend 47
 # replace ?? below with yours, ATTN: id is NOT guid
-delete from elgg_xssentity_relationships where id=??;
+delete from elgg_entity_relationships where id=??;
 ```
 
 **2. Report**

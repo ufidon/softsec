@@ -8,6 +8,7 @@ This lab is revised from [SEED 2.0 Cross-Site Scripting Attack Lab (Elgg)](https
 
 Complete the following tasks described in [SEED 2.0 Cross-Site Scripting Attack Lab (Elgg)](./refs/WebXSSElgg.pdf):
 
+*admin password: seedadmin*
 
 - [x] Task 1 (10%): Posting a Malicious Message to Display an Alert Window
 - [x] Task 2 (15%): Posting a Malicious Message to Display Cookies
