@@ -53,7 +53,7 @@ Write a report about the process you complete the tasks in the description, key 
 
 *Pay attention to the lab tasks, countermeasure in Task 6 is required. not only FYI*
 
-* [SEED 2.0 Cross-Site Scripting Attack Lab II]()
+* [SEED 2.0 Cross-Site Scripting Attack Lab II](https://youtu.be/RkLVw9RmMLk)
 * [SEED 1.0 Cross-Site Scripting Attack Lab II](https://youtu.be/Xh8OXe11-4Q)
 
 **4. References**
