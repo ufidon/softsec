@@ -2,13 +2,25 @@
 
 course materials and references for its450
 
-This lab is revised from [SQL Injection Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Web/Web_SQL_Injection/)
+This lab is revised from [SQL Injection Attack Lab 2.0](https://seedsecuritylabs.org/Labs_20.04/Web/Web_SQL_Injection/)
 
 **1. Tasks to be complete:**
 
-Complete the following tasks described in [SQL Injection Attack Lab](./refs/WebSQLInjection.pdf):
+Complete the following tasks described in [SQL Injection Attack Lab 2.0](./refs/WebSQLInjection.pdf):
 
-Before the lab, backup original database and files.
+
+- [x] Task 1 (40%): Get Familiar with SQL Statements
+  - [X] (10%) Login MySQL from terminal as root
+  - [X] (10%) Find and use the database for this lab
+  - [X] (20%) Find the tables and show all records of this database
+- [x] Task 2 (60%): SQL Injection Attack on SELECT Statement
+  - [X] Task 2.1 (15%): SQL injection attack from webpage.
+  - [X] Task 2.2 (15%): SQL injection attack from command line.
+  - [X] Task 2.3 (30%): Append a new SQL statement.
+
+**Tips**
+
+How to backup and restore original database and files.
 1. Backup and restore database in a terminal
    * Backup: 
 ```mysql   
@@ -32,27 +44,18 @@ Before the lab, backup original database and files.
    sudo cp /var/www/SQLInjection/unsafe_home.php.bk /var/www/SQLInjection/unsafe_home.php
 ```
 
-- [x] Task 1 (40%): Get Familiar with SQL Statements
-  - [X] (10%) Login MySQL from terminal as root
-  - [X] (10%) Find and use the database for this lab
-  - [X] (20%) Find the table and show all records of this database
-- [x] Task 2 (60%): SQL Injection Attack on SELECT Statement
-  - [X] Task 2.1 (15%): SQL injection attack from webpage.
-  - [X] Task 2.2 (15%): SQL injection attack from command line.
-  - [X] Task 2.3 (30%): Append a new SQL statement.
-
-
-
 **2. Report**
 
 Write a report about the process you complete the tasks in the description, key screen snapshots are needed as evidences. In your report, each task has its own subsection.
 
 
 **3. Demo video**
-* [SEED SQL Injection Attack I](https://youtu.be/LXP_hbc7DJY)
+* [SEED SQL Injection Attack I 2.0]()
+* [SEED SQL Injection Attack I 1.0](https://youtu.be/LXP_hbc7DJY)
 
 **4. References**
-* [SQL Injection Attack Lab](https://seedsecuritylabs.org/Labs_16.04/Web/Web_SQL_Injection/)
+* [SQL Injection Attack Lab 2.0](https://seedsecuritylabs.org/Labs_20.04/Web/Web_SQL_Injection/)
+* [SQL Injection Attack Lab 1.0](https://seedsecuritylabs.org/Labs_16.04/Web/Web_SQL_Injection/)
 * [HTTP Header Live](https://addons.mozilla.org/en-US/firefox/addon/http-header-live/)
 * [Firefox development tools](https://developer.mozilla.org/en-US/docs/Tools)
 * [Chrome Devtools](https://developers.google.com/web/tools/chrome-devtools)
