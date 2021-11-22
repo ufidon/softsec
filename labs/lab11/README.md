@@ -68,6 +68,8 @@ Write a report about the process you complete the tasks in the description, key 
   * [mysqli::multi_query](https://www.php.net/manual/en/mysqli.multi-query.php)
 * [SQL](https://en.wikipedia.org/wiki/SQL)
   * [SQL syntax](https://en.wikipedia.org/wiki/SQL_syntax)
+* [Percent encoding](https://en.wikipedia.org/wiki/Percent-encoding)
+  * [Url encoder and decoder](https://www.urlencoder.org/)
 * [Character encodings in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML)
   * [html-entity-encode](https://devpal.co/html-entity-encode/)
   * [html-entities-encoder-and-decoder](https://www.web2generators.com/html-based-tools/online-html-entities-encoder-and-decoder)
