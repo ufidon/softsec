@@ -2,11 +2,11 @@
 
 course materials and references for its450
 
-This lab is revised from [SQL Injection Attack Lab 2.0](https://seedsecuritylabs.org/Labs_20.04/Web/Web_SQL_Injection/)
+This lab is revised from [SEED 2.0 SQL Injection Attack Lab](https://seedsecuritylabs.org/Labs_20.04/Web/Web_SQL_Injection/)
 
 **1. Tasks to be complete:**
 
-Complete the following tasks described in [SQL Injection Attack Lab 2.0](./refs/WebSQLInjection.pdf):
+Complete the following tasks described in [SEED 2.0 SQL Injection Attack Lab 2.0](./refs/WebSQLInjection.pdf):
 
 
 - [x] Task 1 (40%): Get Familiar with SQL Statements
@@ -50,8 +50,8 @@ Write a report about the process you complete the tasks in the description, key 
 
 
 **3. Demo video**
-* [SEED SQL Injection Attack I 2.0]()
-* [SEED SQL Injection Attack I 1.0](https://youtu.be/LXP_hbc7DJY)
+* [SEED 2.0 SQL Injection Attack I](https://youtu.be/zBURwp47ddM)
+* [SEED 1.0 SQL Injection Attack I](https://youtu.be/LXP_hbc7DJY)
 
 **4. References**
 * [SQL Injection Attack Lab 2.0](https://seedsecuritylabs.org/Labs_20.04/Web/Web_SQL_Injection/)
