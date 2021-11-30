@@ -3,9 +3,9 @@
  * prerequisite: dbtest database created with dbtest.sql
  */
    function getDB() { // not used
-     $dbhost="localhost";
+     $dbhost="10.9.0.6";
      $dbuser="root";
-     $dbpass="seedubuntu";
+     $dbpass="dees";
      $dbname="dbtest";
 
      // Create a DB connection
@@ -21,7 +21,8 @@
    $newpwd = $_POST['NewPassword'];
 
 
-   $conn = new mysqli("localhost", "root", "seedubuntu", "dbtest");
+   $conn = new mysqli("10.9.0.6", "root", "dees", "dbtest");
+   // $conn = getDB()
    if ($conn) {
      echo "dbtest connected\n";
      echo "<br>";

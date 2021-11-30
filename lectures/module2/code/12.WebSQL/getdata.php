@@ -3,9 +3,9 @@
  * prerequisite: dbtest database created with dbtest.sql
  */
    function getDB() {
-     $dbhost="localhost";
+     $dbhost="10.9.0.6";
      $dbuser="root";
-     $dbpass="seedubuntu";
+     $dbpass="dees";
      $dbname="dbtest";
 
      // Create a DB connection
@@ -19,7 +19,8 @@
    $eid = $_GET['EID'];
    $pwd = $_GET['Password'];
 
-   $conn = new mysqli("localhost", "root", "seedubuntu", "dbtest");
+   //$conn = new mysqli("10.9.0.6", "root", "dees", "dbtest");
+   $conn = getDB();
    $sql = "SELECT Name, Salary, SSN             
            FROM employee
            WHERE eid= '$eid' and password='$pwd'";  

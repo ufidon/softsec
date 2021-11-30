@@ -3,7 +3,7 @@
  * prerequisite: dbtest database created with dbtest.sql
  */
 
-   $conn = new mysqli("localhost", "root", "seedubuntu", "dbtest");
+   $conn = new mysqli("10.9.0.6", "root", "dees", "dbtest");
    $sql = "SELECT Name, Salary, SSN
            FROM employee
            WHERE eid= ? and password=?";  

@@ -2,7 +2,7 @@
 /* check: login.html
  * prerequisite: dbtest database created with dbtest.sql
  */
-   $conn = new mysqli("localhost", "root", "seedubuntu", "dbtest");
+   $conn = new mysqli("10.9.0.6", "root", "dees", "dbtest");
 	if ($conn->connect_error) {
          die("Connection failed: " . $conn->connect_error . "\n");
          return $conn;
