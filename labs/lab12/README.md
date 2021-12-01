@@ -63,3 +63,4 @@ Write a report about the process you complete the tasks in the description, key 
   * [mysql](https://www.mysql.com/)
 * [SQL](https://en.wikipedia.org/wiki/SQL)
   * [SQL syntax](https://en.wikipedia.org/wiki/SQL_syntax)
+* [$stmt->close() vs $stmt->free_result()](https://stackoverflow.com/questions/19531195/stmt-close-vs-stmt-free-result)
