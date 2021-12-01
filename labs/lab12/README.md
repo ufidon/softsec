@@ -10,16 +10,11 @@ This lab is revised from [SEED 2.0 SQL Injection Attack Lab](https://seedsecurit
 Complete the following tasks described in [SEED 2.0 SQL Injection Attack Lab](../lab11/refs/WebSQLInjection.pdf):
 
 
-- [x] Task 3 (45%): SQL Injection Attack on UPDATE Statement
-  - [x] Task 3.1(15%): Modify your own salary.
-  - [x] Task 3.2(15%): Modify other people’ salary. 
-  - [x] Task 3.3(15%): Modify other people’ password.
-- [x] Task 4 (55%, each 11%): Countermeasure — Prepared Statement. After applied countermeasure, redo the following tasks, now the attacks should fail.
-  - [X] Task 2.1: SQL injection attack from webpage.
-  - [X] Task 2.2: SQL injection attack from command line.
-  - [x] Task 3.1: Modify your own salary.
-  - [x] Task 3.2: Modify other people’s salary. 
-  - [x] Task 3.3: Modify other people’s password.
+- [x] Task 3 (60%): SQL Injection Attack on UPDATE Statement
+  - [x] Task 3.1(20%): Modify your own salary.
+  - [x] Task 3.2(20%): Modify other people’ salary. 
+  - [x] Task 3.3(20%): Modify other people’ password.
+- [x] Task 4 (40%): Countermeasure — Prepared Statement. 
 
 **Tips**
 
