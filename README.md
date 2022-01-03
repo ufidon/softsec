@@ -8,7 +8,7 @@ click this link to [subscribe for automatic notification](https://www.youtube.co
 ![subscribe for automatic notification](./qlwyQR.png)
 
 ## Prerequisite
-In this course, we will create one virtual machines with SEED Ubuntu 16.04 LTS image, all needed software are integrated  in the provided virtual machine image. To be ready for this course, you need to have
+In this course, we will create one virtual machines with SEED Ubuntu 20.04 LTS image, all needed software are integrated  in the provided virtual machine image. To be ready for this course, you need to have
 * _Hardware_
   * A laptop or desktop computer with >= 8GB ram, one free USB 3.0+ port
   * A USB 3.0+ Flash drive or external SSD with size >= 256GB, for example:
