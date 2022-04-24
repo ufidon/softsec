@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Change password</title>
+   </head>
+   <body>
+   <!-- Prerequisite:
+   1. dbtest database created with dbtest.sql: 
+      1.1 Create an empty database dbtest
+      1.2 mysql -u root -p dbtest < dbtest.sql
+   2. copy changepw.html, changepw.php to /var/www/html
+   3. then access it from browser: http://localhost/changepw.html
+   -->   
+      <h1> Reset password</h1>
+      <form action = "changepw.php" method = "POST">
+         EID: <input type = "text" name = "EID" />
+         Old Password: <input type = "text" name = "OldPassword" />
+         New Password: <input type = "text" name = "NewPassword" />
+         <input type = "submit" />
+      </form>
+      
+   </body>
+</html>

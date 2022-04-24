@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Get employee information</title>
+   </head>
+   <body>
+   <!-- Prerequisite:
+   1. dbtest database created with dbtest.sql:
+      1.1 Create an empty database dbtest
+      1.2 mysql -u root -p dbtest < dbtest.sql   
+   2. copy login.html, getdata.php, getdata_encoding, getdata_prepare.php to /var/www/html
+   3. then access it from browser: http://localhost/login.html
+   -->
+      <h1> Login (Process this form with getdata.php)</h1>
+      <form action = "getdata.php" method = "GET">
+         EID: <input type = "text" name = "EID" />
+         Password: <input type = "text" name = "Password" />
+         <input type = "submit" />
+      </form>
+
+	<h1> Login (Process this form with getdata_encoding.php)</h1>
+      <form action = "getdata_encoding.php" method = "GET">
+         EID: <input type = "text" name = "EID" />
+         Password: <input type = "text" name = "Password" />
+         <input type = "submit" />
+      </form>
+
+	<h1> Login (Process this form with getdata_prepare.php)</h1>
+      <form action = "getdata_prepare.php" method = "GET">
+         EID: <input type = "text" name = "EID" />
+         Password: <input type = "text" name = "Password" />
+         <input type = "submit" />
+      </form>            
+   </body>
+</html>
